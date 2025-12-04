@@ -20,7 +20,7 @@ st.write('Enter the patient\u2019s details to predict the risk of Diabetic Foot 
 
 # Input fields for features
 gender = st.selectbox('Gender', [1, 2], format_func=lambda x: 'Male' if x == 1 else 'Female')
-age = st.st.number_input('Age', 17, 80, 50)
+age = st.number_input('Age', 17, 80, 50)
 duration_dm = st.slider('Duration of DM', 1.0, 30.0, 10.0)
 family_ho_dm = st.selectbox('Family H/O DM', [0, 1], format_func=lambda x: 'No' if x == 0 else 'Yes')
 bm1 = st.slider('BM1', 13.0, 31.0, 23.0)
